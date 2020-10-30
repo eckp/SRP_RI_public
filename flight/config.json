@@ -1,0 +1,58 @@
+{
+    "name":"SRP:RI",
+
+    "hatch_closed": 1,
+    "hatch_open": -1,
+
+    "hatch_pin": 4,
+    "buzzer_pin": 17,
+    "status_LED_pins": [24, 23, 18],
+    "arm_switch_pin": 27,
+    "breakwire_pin": 22,
+
+    "beep_period": 0.4,
+    "beep_frequency": 440,
+
+    "blink_period": 0.5,
+    "red": [1, 0, 0],
+    "green": [0, 1, 0],
+    "blue": [0, 0, 1],
+    "white": [0.1, 0.1, 0.1],
+    "yellow": [1, 1, 0],
+    "magenta": [1, 0, 1],
+    "cyan": [0, 1, 1],
+
+    "sensor_intervals": {
+        "baro": 0.04,
+        "acc": 0.005,
+        "gyro": 0.005,
+        "mag": 0.008},
+
+    "statemachine_interval": 0.1,
+
+    "state_interval_factors": {
+        "IDLE": 8,
+        "PREPARED": 4,
+        "ARMED": 2,
+        "LAUNCHED": 1,
+        "DEPLOYED": 1,
+        "LANDED": 8},
+
+    "deploy_window": [29, 33],
+    "deploy_altitude": 800,
+    "deploy_velocity": -2,
+    "landing_window": [38, 100],
+    "landing_altitude_range": [-10, 10],
+    "landing_velocity_range": [-1, 1],
+
+    "g0": 9.81,
+    "T0": 291,
+    "R": 278,
+    "a": -0.0065,
+
+    "p_smoothing": 0.2,
+    "v_smoothing": 0.1,
+
+    "testing": false,
+    "plot": false
+}
