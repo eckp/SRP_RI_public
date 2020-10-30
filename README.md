@@ -1,4 +1,4 @@
-Note: this public repo is a redacted copy of my private working version, so sadly no commit history is available.
+Note: this public repo is a redacted copy of the software for SRP Reimagined, so sadly no commit history is available.
 **For the original flight software and flight data of SRP Separation Anxiety, our first attempt, see https://github.com/eckp/SRP_SA**
 
 # SRP_RI
